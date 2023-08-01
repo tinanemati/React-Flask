@@ -10,6 +10,10 @@ app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
+# TODO: Add option for allowed extentions so we get the extentions we need for agilent files
+
+# TODO: Function for the handeling added files with the approved extentions 
+
 # Enable CORS for all routes on your app
 CORS(app)
 
